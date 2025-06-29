@@ -1,0 +1,22 @@
+baseURL: "https://parinamais.github.io/parinamais.github.io/"
+languageCode: en-us
+title: ParinaMais
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Content: Hi, my name's Marina Pais and I want to be an indie dev!
+    cover:
+        linkFullImages: true
+    ShowBreadCrumbs: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
