@@ -1,4 +1,4 @@
-baseURL: "https://parinamais.github.io/parinamais.github.io/"
+baseURL: "https://parinamais.github.io//parinamais.github.io"
 languageCode: en-us
 title: ParinaMais
 theme: PaperMod
@@ -20,3 +20,7 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+
+caches:
+  images:
+    dir: :cacheDir/images
