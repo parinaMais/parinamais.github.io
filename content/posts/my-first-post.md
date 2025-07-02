@@ -18,6 +18,10 @@ Hi!
 ### Third Level Heading
 
 We can write in **bold** or _italic_ or even a ~crossed~ text.
-> and you can quote me on that!
+> and you can quote me on that! aaa
 
-And we can even link our own [website](http://localhost:1313/)
+![my image](img/01_CarequinhaFace.png)
+
+{{< video src="/vid/carequinha.mp4" type="mp4" >}}
+
+And we can even link our own [website](https://parinamais.com/)

@@ -1,4 +1,5 @@
 baseURL: "https://parinamais.github.io//parinamais.github.io"
+#baseURL: ""
 languageCode: en-us
 title: Marina's IndieDev Journey
 theme: PaperMod
@@ -24,3 +25,10 @@ menu:
 caches:
   images:
     dir: :cacheDir/images
+
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: static
+      target: assets
