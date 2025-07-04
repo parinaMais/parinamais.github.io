@@ -62,7 +62,10 @@
 /* Desktop-only spacing (≥768px) */
 @media (min-width: 769px) {
   :root {
-    --gap: 0rem; /* Tighten desktop spacing */
+    --gap: 1rem; /* Tighten desktop spacing */
   }
-  .home-info { margin-bottom: 0.5rem !important; }
+  .home-info { position: relative; /* Creates new stacking context */
+                z-index: 2; /* Above header's 10 but below dropdowns */
+                margin-bottom: -2rem !important;
+                margin-top: -2rem !important; }
 }
