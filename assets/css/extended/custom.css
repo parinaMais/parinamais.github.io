@@ -1,0 +1,39 @@
+/*
+This is just a placeholder blank stylesheet so as to support adding custom styles budled with theme's default styles
+
+Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
+*/
+/* Main content alignment */
+.header-content-wrapper {
+    width: 100%;
+    max-width: var(--main-content-width); /* Matches your content width */
+    margin: 0 auto;
+    padding: 0 var(--content-padding); /* Matches your content padding */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: calc(var(--content-padding) + 1.1rem); /* this was a value that I set by eye to ensure alingment between logo and text */
+}
+
+.header-left-group {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between logo and toggle */
+    margin-bottom: 1rem; /* Space between header group and menu */
+}
+
+#menu {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+/* Match your content container styling */
+:root {
+    --main-content-width: 800px; /* Adjust to match your content */
+    --content-padding: 1.5rem; /* Adjust to match your content */
+}

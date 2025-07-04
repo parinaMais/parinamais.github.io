@@ -5,6 +5,8 @@ Title: "ParinaMais"
 theme: PaperMod
 
 params:
+  contentWidth: 800px
+  padding: 1.5rem
   homeInfoParams:
     Title: "lorem impussmsmssmsm"
     Content: Welcome to my blog. Here you'll find a lot of info on m ystuff.
