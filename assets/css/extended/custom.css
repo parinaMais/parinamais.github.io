@@ -16,7 +16,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     padding-left: calc(var(--content-padding) + 1.1rem); /* this was a value that I set by eye to ensure alingment between logo and text */
     @media screen and (max-width: 767px) {
         .header-content-wrapper {
-        padding-left: calc(var(--content-padding) - 0.5rem); /* Negative adjustment to compensate */
+        padding-left: calc(var(--content-padding) + 0.5rem); /* Eyeballing this unfort */
         }
     }
 }
