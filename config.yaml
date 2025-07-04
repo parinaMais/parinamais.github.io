@@ -8,8 +8,7 @@ params:
   contentWidth: 800px
   padding: 1.5rem
   homeInfoParams:
-    Title: "lorem impussmsmssmsm"
-    Content: Welcome to my blog. Here you'll find a lot of info on m ystuff.
+    Content: Welcome to my blog. Here you'll find a lot of info on m ystuff. Welcome to my blog. Here you'll find a lot of info on m ystuff.Welcome to my blog. Here you'll find a lot of info on m ystuff.Welcome to my blog. Here you'll find a lot of info on m ystuff.Welcome to my blog. Here you'll find a lot of info on m ystuff.
   socialIcons:
     - name: twitter
       url: "https://x.com/parinamais"

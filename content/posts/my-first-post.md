@@ -1,5 +1,5 @@
 ---
-title: 'My First Post'
+title: 'On Making Games, Catching Fishes and Failing Forward'
 date: '2025-06-29T15:55:16-03:00'
 #changing the draf to false or commenting out this line is what publishes the post
 draft: false
