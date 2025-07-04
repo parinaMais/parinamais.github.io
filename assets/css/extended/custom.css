@@ -58,3 +58,11 @@
   }
   
 }
+
+/* Desktop-only spacing (≥768px) */
+@media (min-width: 769px) {
+  :root {
+    --gap: 0rem; /* Tighten desktop spacing */
+  }
+  .home-info { margin-bottom: 0.5rem !important; }
+}
