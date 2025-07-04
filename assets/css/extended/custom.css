@@ -14,6 +14,9 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     align-items: center;
     justify-content: space-between;
     padding-left: calc(var(--content-padding) + 1.1rem); /* this was a value that I set by eye to ensure alingment between logo and text */
+    @media screen and (max-width: 767px) {
+        padding-left: calc(var(--content-padding)); 
+    }
 }
 
 .header-left-group {
