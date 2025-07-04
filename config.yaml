@@ -1,27 +1,25 @@
 baseURL: "https://parinamais.github.io//parinamais.github.io"
 #baseURL: ""
 languageCode: en-us
-title: Marina's IndieDev Journey
+Title: "ParinaMais"
 theme: PaperMod
 
 params:
   homeInfoParams:
-    Content: Hi, my name's Marina Pais and I want to be an indie dev!
-    cover:
-        linkFullImages: true
-    ShowBreadCrumbs: true
+    Title: "lorem impussmsmssmsm"
+    Content: Welcome to my blog. Here you'll find a lot of info on m ystuff.
+  socialIcons:
+    - name: twitter
+      url: "https://x.com/parinamais"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/parinamais/"
+    - name: instagram
+      url: "https://www.instagram.com/parinamais/"
 
-menu:
-  main:
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 20
+  ShowBreadCrumbs: true
 
+  customCSS: ["css/extended/custom.css"]
+    
 caches:
   images:
     dir: :cacheDir/images

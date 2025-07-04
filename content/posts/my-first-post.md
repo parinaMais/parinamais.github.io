@@ -20,7 +20,7 @@ Hi!
 We can write in **bold** or _italic_ or even a ~crossed~ text.
 > and you can quote me on that! aaa
 
-![my image](img/01_CarequinhaFace.png)
+![my image](img/01_CarequinhaFace.png#center)
 
 {{< video src="/vid/carequinha.mp4" type="mp4" >}}
 
