@@ -38,7 +38,17 @@
             <div class="header-left-group">
                 <!-- Your logo -->
             <a href="{{ `` | absLangURL }}" class="nav-logo" title="{{ site.Title }}">
-                <img src="{{ "img/logo.png" | absURL }}" alt="{{ site.Title }}" width="200" height="80"/>
+                <!-- Light mode logo -->
+                <img src="{{ "img/logo_light.png" | absURL }}" 
+                    alt="{{ site.Title }}" 
+                    class="light-mode-logo"
+                    width="142" height="80">
+                
+                <!-- Dark mode logo -->
+                <img src="{{ "img/logo_dark.png" | absURL }}" 
+                    alt="{{ site.Title }}" 
+                    class="dark-mode-logo"
+                    width="142" height="80">
             </a>
             
             <!-- Theme toggle and language switches -->

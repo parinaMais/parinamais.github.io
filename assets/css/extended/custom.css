@@ -20,6 +20,19 @@
   justify-content: space-between;
 }
 
+/* Default: show light logo */
+.dark-mode-logo {
+  display: none;
+}
+
+/* Dark mode: switch logos */
+.dark .light-mode-logo {
+  display: none;
+}
+.dark .dark-mode-logo {
+  display: block;
+}
+
 /* Logo group - contains logo + toggle */
 .header-left-group {
   padding-top: 1rem; /* Adjust this value as needed */
