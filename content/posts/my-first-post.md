@@ -1,5 +1,7 @@
 ---
 title: 'On Making Games, Catching Fishes and Failing Forward'
+summary: 'CATCHING FISHES - Devlog_01'
+description: 'CATCHING FISHES - Devlog_01'
 date: '2025-06-29T15:55:16-03:00'
 #changing the draf to false or commenting out this line is what publishes the post
 draft: false
