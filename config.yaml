@@ -5,6 +5,8 @@ Title: "ParinaMais"
 theme: PaperMod
 
 params:
+  cover:
+    linkFullImages: true
   contentWidth: 800px
   padding: 1.5rem
   homeInfoParams:

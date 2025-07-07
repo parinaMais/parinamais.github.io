@@ -20,6 +20,25 @@
   justify-content: space-between;
 }
 
+/* Fix aspect ratio and responsiveness */
+.markdown img, 
+.post-content img, 
+figure img {
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style for PaperMod figure captions */
+figure figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.5em;
+  color: var(--caption-color); /* Uses theme's variable */
+  line-height: 1.4;
+}
+
 /* Default: show light logo */
 .dark-mode-logo {
   display: none;
