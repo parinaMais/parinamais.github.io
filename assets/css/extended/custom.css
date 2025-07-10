@@ -39,6 +39,17 @@ figure figcaption {
   line-height: 1.4;
 }
 
+/* Video captions (matches image style) */
+.video-container {
+  margin: 1.5em auto;
+  text-align: center;
+}
+.video-container figcaption {
+  font-size: 0.9rem;
+  color: var(--caption-color);
+  margin-top: 0.5em;
+}
+
 /* Default: show light logo */
 .dark-mode-logo {
   display: none;
