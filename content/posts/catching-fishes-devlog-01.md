@@ -3,7 +3,7 @@ title: 'Catching Fishes, Making Games and Failing Forward'
 summary: 'CATCHING FISHES  - DEVLOG #01'
 description: 'Catching Fishes - Devlog #01'
 date: '2025-07-11T01:55:16-03:00'
-draft: true
+draft: false
 cover:
     image: img/01_cover.png
     alt: 'Static image of a bathroom, that has a bathtube, a sink and mirror, a cabinet, a toilet, a catlitter, a flower and a bathroom stool with a cat magazine on top. In the center of the bathroom,
