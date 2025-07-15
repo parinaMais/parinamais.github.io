@@ -23,6 +23,7 @@ params:
       url: "https://www.linkedin.com/in/parinamais/"
     - name: instagram
       url: "https://www.instagram.com/parinamais/"
+    
 
   ShowBreadCrumbs: true
 
@@ -38,3 +39,6 @@ module:
       target: assets
     - source: static
       target: assets
+
+googleAnalytics: 
+  "G-YN51CHFM1Z"
