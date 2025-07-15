@@ -67,13 +67,13 @@ This actually wasn't the hassle I thought it would be: it took me one week to fi
 
 Well, the fact is that I didn't, and I would like to share some pros and cons of my UE5 experience:
 
-+ 👎 This might seem obvious, but I'll state it anyway: as this was/is my first experience with solodev, it wasn't a good idea to migrate to an engine where I don't have full proficiency. Implementing the visuals and shaders was a smooth transition, but scripting the mechanics was not. I'm very used to writing in C#, and transitioning to blueprints made me slower.
-
-+ 👎 I also should have considered the project's fit when choosing the engine. This was supposed to be a tiny cute game, UE5 was overkill (I actually spent some considerable time disabling Unreal's defaults to get the look I wanted, this game uses no lighting, no color grading etc).
-
 + 👍 The shaders proved to be engine agnostic. UE5 and Unity have differences in their coordinate systems that would affect the shaders, like in their Y direction in UVMaps, but it was still really easy to translate all the visuals from one engine to the other. Even the animation and models, that were made for Unreal's metric system, exported pretty well.
 
 + 👍 It was awesome to experiment with a different engine. I had taken some brief courses on UE5, but getting a project done in it is very different. As soon as I'm done with Catching Fishes, my next project will be building an environment to showcase in UE5, and I'm looking forward to it!
+
++ 👎 This might seem obvious, but I'll state it anyway: as this was/is my first experience with solodev, it wasn't a good idea to migrate to an engine where I don't have full proficiency. Implementing the visuals and shaders was a smooth transition, but scripting the mechanics was not. I'm very used to writing in C#, and transitioning to blueprints made me slower.
+
++ 👎 I also should have considered the project's fit when choosing the engine. This was supposed to be a tiny cute game, UE5 was overkill (I actually spent some considerable time disabling Unreal's defaults to get the look I wanted, this game uses no lighting, no color grading etc).
 
 After facing this challenge relatively early in my project, I thought: nothing could be worse than having to rebuild the game! Right? Right??? Please?!?
 
