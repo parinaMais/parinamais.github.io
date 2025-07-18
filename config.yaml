@@ -15,15 +15,16 @@ params:
       Here, you will find devlogs of the games I'm currently working on, breakdowns of the techniques I'm using, and everything else that's helpful in my journey. 
       Hope you like it, and thank you for visiting my blog!
   socialIcons:
+    - name: artstation
+      url: "https://www.artstation.com/parinamais"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/parinamais/"
     - name: bluesky
       url: "https://bsky.app/profile/parinamais.bsky.social"
     - name: itchio
       url: "https://parinamais.itch.io/"
-    - name: linkedin
-      url: "https://www.linkedin.com/in/parinamais/"
     - name: instagram
       url: "https://www.instagram.com/parinamais/"
-    
 
   ShowBreadCrumbs: true
 
