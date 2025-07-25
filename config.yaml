@@ -27,6 +27,9 @@ params:
       url: "https://www.instagram.com/parinamais/"
 
   ShowBreadCrumbs: true
+  #ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  #ShareButtons: true
 
   customCSS: ["css/extended/custom.css"]
     
