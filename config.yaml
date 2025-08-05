@@ -11,9 +11,13 @@ params:
   padding: 1.5rem
   homeInfoParams:
     Title: Hi!
-    Content:  My name is Marina Pais, I'm a 3D & Tech Artist from Brazil, and I want to be an IndieGameDev!
-      Here, you will find devlogs of the games I'm currently working on, breakdowns of the techniques I'm using, and everything else that's helpful in my journey. 
-      Hope you like it, and thank you for visiting my blog!
+    Content:  |
+      My name is Marina Pais, I’m a 3D & Tech Artist currently studying Computer Science : )
+      
+      Here, you'll find devlogs of the games I'm working on, and breakdowns of the techniques I'm using.
+       
+      Feel free to share your thoughts in the comments! Hope you like it, and thank you for visiting!
+
   socialIcons:
     - name: artstation
       url: "https://www.artstation.com/parinamais"
