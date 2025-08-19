@@ -12,11 +12,11 @@ params:
   homeInfoParams:
     Title: Hi!
     Content:  |
-      My name is Marina Pais, I’m a 3D & Tech Artist currently studying Computer Science : )
+      My name is Marina Pais, I’m a 3D & Tech Artist currently graduating in Computer Science.
       
-      Here, you'll find devlogs of the games I'm working on, and breakdowns of the techniques I'm using.
+      Here, you'll find devlogs of games I'm working on, and breakdowns of techniques I'm using.
        
-      Feel free to share your thoughts in the comments! Hope you like it, and thank you for visiting!
+      Feel free to reach out through any of my socials, and thank you for visiting!
 
   socialIcons:
     - name: artstation
@@ -31,7 +31,7 @@ params:
       url: "https://www.instagram.com/parinamais/"
 
   ShowBreadCrumbs: true
-  #ShowReadingTime: true
+  ShowReadingTime: false
   ShowCodeCopyButtons: true
   #ShareButtons: true
 
