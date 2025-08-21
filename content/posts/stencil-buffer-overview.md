@@ -2,6 +2,8 @@
 title: 'Stencil Buffer Overview'
 date: '2025-07-22T01:55:16-03:00'
 summary: "A basic overview of the Stencil Buffer and an example implementation to create a flashlight effect."
+description: "Last Updated: August 21, 2025"
+
 draft: false
 cover:
     image: gifs/02_StencilDark.gif
@@ -200,13 +202,27 @@ That was it for the flashlight! To wrap it up, let's see some...
 
 ### >> BONUS STENCIL EFFECTS << 
 
-As I did my research to write this post, I found a bunch of other cool stencils implementations, and I really wanted to keep some registered! So here are three cool use cases:
+As I did my research to write this post, I found a bunch of other cool stencils implementations, and I really wanted to keep some registered! So here are some cool use cases:
 
 1. **Creating outlines**, as explained by @ameye.dev [in this comment](https://www.reddit.com/r/Unity3D/comments/1iteg3s/comment/mdrlkgg/?context=3 ).
 
 2. **Wind Waker uses it to create lights!** Here's an [awesome breakdown](https://youtu.be/mNndyHHNh78) by Minions Art.
 
 3. And there's even a tool that uses it to **[visualize volume intersections](https://tech.metail.com/the-stencil-buffer-and-how-to-use-it-to-visualize-volume-intersections/)**! 
+
+4. You can also use stencils to **mask out full screen post processing effects**! Here's an example:
+
+{{< figure src="/gifs/02_maskOut.gif" caption="Where's Waldo for pixel art!" >}}
+
+The way this works is quite simple: the Pixelation Filter comes from [a tutorial by Ben Cloward](https://youtu.be/x95xhWCxBb4), and the one thing you have to add is the **Enable Stencil** option on ShaderGraph (here I'm using **Ref 0** and **Comp Equal**).
+
+You then apply this effect to the screen through a **Full Screen Renderer Feature**, and here comes the trick: 
+
+> "In newer versions (maybe 2023.1 or Unity 6+) **the fullscreen feature has a "Bind Depth Stencil Buffer" option which would allow it to use stencil tests**.". 
+
+This is an actual quote from [Cyan](https://www.cyanilux.com/), who helped me figure out how to enable this testing - check out his website and discord server! I had to update from 2022.3.8f1 to .62f1 for this to work.
+
+Once you do that, it's just a matter of writing a different value to the buffer using masks, as we've already seen. As I'm applying this effect when the value is 0 (the default), all I did to mask it was **use a sphere that overwrites the buffer values to 1**. That's it!
 
 Finally, **if you have anything you'd like to add or correct, please feel free to reach out!** I am still implementing this website's comments section, but in the meantime you can contact me through any of my socials. I'm always open to learning and evolving. 
 
