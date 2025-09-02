@@ -12,9 +12,9 @@ params:
   homeInfoParams:
     Title: Hi!
     Content:  |
-      My name is Marina Pais, I’m a 3D & Tech Artist currently graduating in Computer Science.
+      I'm Marina, a brazilian 3D & Tech Artist currently graduating in Computer Science!
       
-      Here, you'll find devlogs of games I'm working on, and breakdowns of techniques I'm using.
+      I'm on a journey to make a bunch of tiny games, and this website is my journal.
        
       Feel free to reach out through any of my socials, and thank you for visiting!
 
@@ -31,7 +31,7 @@ params:
       url: "https://www.instagram.com/parinamais/"
 
   ShowBreadCrumbs: true
-  ShowReadingTime: false
+  #ShowReadingTime: true
   ShowCodeCopyButtons: true
   #ShareButtons: true
 
