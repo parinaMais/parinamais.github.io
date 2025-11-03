@@ -1,5 +1,5 @@
-baseURL: "https://parinamais.github.io//parinamais.github.io"
-#baseURL: ""
+#baseURL: "https://parinamais.github.io//parinamais.github.io"
+baseURL: ""
 languageCode: en-us
 Title: "ParinaMais"
 theme: PaperMod
@@ -12,11 +12,11 @@ params:
   homeInfoParams:
     Title: Hi!
     Content:  |
-      I'm Marina, a brazilian 3D & Tech Artist currently graduating in Computer Science!
+      I'm Marina Pais, a brazilian 3D & Tech Artist currently graduating in Computer Science.
       
-      I'm on a journey to make a bunch of tiny games, and this website is my journal.
+      My main goal with this blog is to share what I know, but also to learn and improve.
        
-      Feel free to reach out through any of my socials, and thank you for visiting!
+      So if you ever have anything to add or correct, please reach out through any of my socials!
 
   socialIcons:
     - name: artstation
@@ -36,7 +36,7 @@ params:
   #ShareButtons: true
 
   customCSS: ["css/extended/custom.css"]
-    
+
 caches:
   images:
     dir: :cacheDir/images
