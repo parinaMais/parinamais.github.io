@@ -1,5 +1,5 @@
-#baseURL: "https://parinamais.github.io//parinamais.github.io"
-baseURL: ""
+baseURL: "https://parinamais.github.io//parinamais.github.io"
+#baseURL: ""
 languageCode: en-us
 Title: "ParinaMais"
 theme: PaperMod
