@@ -179,7 +179,7 @@ The paper fishes were cool, but I hope you're ready to say goodbye to them. Beca
 
 ## A FISH IS BORN {#visuals-section}
 
-Each boid is a 3D fish model, and a _very_ simple one. In fact, the model that made it into the game was the same one I drafted as a quick test. Here's my boy:
+Each boid is a 3D fish model, and a _very_ simple one. In fact, the model that made it into the game was the same one I drafted as a quick test. Here's my boi(d): - _fin-tastic pun suggested by Carl S, thank you!_
 
 {{< figure src="/img/05_fishCloseup.png" alt="3D image of a blue fish with its eye open and a red mouth, side by side with an image of the model's texture" >}}
 
