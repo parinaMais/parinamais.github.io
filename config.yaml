@@ -19,16 +19,20 @@ params:
       So if you ever have anything to add or correct, please reach out through any of my socials!
 
   socialIcons:
-    - name: artstation
-      url: "https://www.artstation.com/parinamais"
     - name: linkedin
       url: "https://www.linkedin.com/in/parinamais/"
     - name: bluesky
       url: "https://bsky.app/profile/parinamais.bsky.social"
-    - name: itchio
-      url: "https://parinamais.itch.io/"
     - name: instagram
       url: "https://www.instagram.com/parinamais/"
+    - name: itchio
+      url: "https://parinamais.itch.io/"
+    - name: x
+      url: "https://x.com/parinamais"
+    - name: github
+      url: "https://github.com/parinaMais"
+    - name: artstation
+      url: "https://www.artstation.com/parinamais"
 
   ShowBreadCrumbs: true
   #ShowReadingTime: true
