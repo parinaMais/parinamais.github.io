@@ -3,6 +3,7 @@ baseURL: "https://parinamais.github.io//parinamais.github.io"
 languageCode: en-us
 Title: "ParinaMais"
 theme: PaperMod
+description: My gamedev blog! Here you'll find devlogs and notes on whatever technique I'm currently learning!
 
 params:
   cover:
