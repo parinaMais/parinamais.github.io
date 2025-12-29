@@ -13,11 +13,11 @@ params:
   homeInfoParams:
     Title: Hi!
     Content:  |
-      I'm Marina Pais, a brazilian 3D & Tech Artist currently graduating in Computer Science.
+      I'm Marina, a brazilian Tech Artist graduating in Computer Science!
       
-      My main goal with this blog is to share what I know, but also to learn and improve.
+      My goal with this blog is to share what I know, but also to learn and improve.
        
-      So if you ever have anything to add or correct, please reach out through any of my socials!
+      So if you ever have anything to add or correct, please feel free to reach out!
 
   socialIcons:
     - name: linkedin
@@ -26,12 +26,12 @@ params:
       url: "https://bsky.app/profile/parinamais.bsky.social"
     - name: instagram
       url: "https://www.instagram.com/parinamais/"
-    - name: itchio
-      url: "https://parinamais.itch.io/"
-    - name: x
-      url: "https://x.com/parinamais"
-    - name: github
-      url: "https://github.com/parinaMais"
+    #- name: itchio
+     # url: "https://parinamais.itch.io/"
+    #- name: x
+     # url: "https://x.com/parinamais"
+    #- name: github
+     # url: "https://github.com/parinaMais"
     - name: artstation
       url: "https://www.artstation.com/parinamais"
 
