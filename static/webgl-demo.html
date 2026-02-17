@@ -11,6 +11,50 @@
 <body>
     <!--a canvas is an html container, I can have multiple canvases.-->
     <canvas id="webglcanvas" width="600" height="400"></canvas>
+    
+    <script id="vertexShader" type="x-shader/x-vertex">
+        // this will run one time per-vertex. And this is where GPU paralelism comes in.
+        // vec3, xyz
+        attribute vec3 position;
+        // vec4, rgba
+        attribute vec4 color;
+        // transformation matrix, for canonical view volume
+        // mat 4 means it's a 4x4 matrix.
+        uniform mat4 transformation;
+        // the difference between attributes and uniforms is: the attributes will come from the vertex buffer objects, that are in the GPU memory.
+        // and uniform is going to be a PARAMETER OF OUR VERTEX SHADER, and it will be uniformly applied to all of our vertices.
+
+        // for the color, I need to pass it to the fragment shader.
+        varying vec4 vcolor; // this is how we pass data from our vertex to the fragment shader. Remember: the vertex shader gets the scene data.
+
+        void main() 
+        {
+            // this converts the 3D position into a vector 4 - homogeneous coordinates
+            // remember that for when direction is important HC has to be 0
+            // and for perpsective projection we also have to tweak the HC
+            gl_Position = transformation * vec4(position, 1);
+            // gl_position is what the RASTERIZER gets! This is supposed to be a position in the canonical view volume.
+            // so, I need to transform the positions. That's why I multiply by the transformation matrix.
+
+            // here is where I pass the color to the fragment shader
+            vcolor = color;
+        }
+    </script>
+
+    <script id="fragmentShader" type="x-shader/x-fragment">
+        precision mediump float;
+        // same line as the vertex shader. This is how the compiler knows of the communication between vertex and fragment shader.
+        varying vec4 vcolor;
+        // this is called VARYING because the GPU will automatically interpolate between the THREE COLOR VALUES that my triangle has (one per vertex),
+        // to choose the color of each fragment. So it will give an interpolated value for that vertex attribute.
+        
+        void main()
+        {
+            // setting the output color to the received color.
+            gl_FragColor = vcolor; // gl_FragColor is the output of the fragment shader.
+        }
+    </script>
+
     <!--this is where my js script is linked, the name is important. I think it's called a tag -->
     <script src="script.js"></script>
 </body>
