@@ -1,5 +1,5 @@
 ---
-title: 'Why it took me 1 year to finish a 5 minutes game'
+title: 'Why it took me 1 year to finish a 5-minute game'
 summary: 'CATCHING FISHES  - DEVLOG #02 (and final!)'
 date: '2026-02-11T01:55:16-03:00'
 draft: false
